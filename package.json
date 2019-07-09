@@ -1,6 +1,10 @@
 {
   "name": "tombeo-react-countdown",
-  "version": "0.1.1",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoang/tombeo-react-countdown.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
