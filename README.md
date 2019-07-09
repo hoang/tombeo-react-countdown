@@ -32,8 +32,6 @@ And it will countdown & update every seconds.
 
 ### Props
 
-Props are displayed as a table with Name, Type, Default, and Description as headings.
-
 **Required props are marked with `*`.**
 
 Name | Type | Default | Description
