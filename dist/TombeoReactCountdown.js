@@ -7,8 +7,6 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-require("./TombeoReactCountdown.css");
-
 var _reactCountdownNow = _interopRequireDefault(require("react-countdown-now"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
