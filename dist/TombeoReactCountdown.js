@@ -110,7 +110,7 @@ function (_Component) {
       return _react.default.createElement(_reactCountdownNow.default, {
         onComplete: this.props.onComplete || this.onComplete,
         renderer: countdownRenderer,
-        date: this.props.completeAt
+        date: this.props.completeAt || Date.now() + 10000
       });
     }
   }]);

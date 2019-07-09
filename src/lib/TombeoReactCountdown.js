@@ -41,10 +41,15 @@ class TombeoReactCountdown extends Component {
       )
     }
     
+    let completeAt = Date.now() + 10000
+    if (this.props.completeAt) {
+      completeAt = this.props.completeAt
+    }
+    
     return (
       <CountDown onComplete={this.props.onComplete || this.onComplete}
                  renderer={countdownRenderer}
-                 date={this.props.completeAt || (Date.now() + 10000)} />
+                 date={completeAt} />
     )
   }
   
